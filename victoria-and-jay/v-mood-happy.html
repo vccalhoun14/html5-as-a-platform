@@ -31,14 +31,12 @@
     </header>
 
     <section class="m-audio-player">
+      <img src="img/headphones.png" alt="Headphones" class="headphone-icon"></img>
       <audio autoplay controls preload="auto" src="aud/Lovely_Day.m4a"></audio>
-    </section>
 
-    <section class="m-video-option">
-
-      <form action="v-happy-video.html" method="post">
-        <label>Would you rather watch the video instead?<label>
-        <label for="happy-video-submit">Yes, please!</label>
+      <form action="v-happy-video.html" method="post" class="m-audio-player--form">
+        <label class="form-label">Watch the video instead?<label>
+        <label for="happy-video-submit"></label>
         <input type="submit" id="happy-video-submit"></input>
       </form>
     </section>
