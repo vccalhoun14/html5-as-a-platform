@@ -8,5 +8,9 @@ h1 {
 
 .page-bkg__sad {
   background: url(../img/stardust.png);
+}
+
+.page-bkg__happy-video {
+  background: url(../img/whitediamond.png);
 
 }
