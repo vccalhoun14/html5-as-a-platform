@@ -8,13 +8,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="stylesheet" href="css/v-base.css">
+    <!-- <link rel="stylesheet" href="css/m-header.css"> -->
+    <link rel="stylesheet" href="css/m-nav.css">
+    <link rel="stylesheet" href="css/m-audio-player.css">
+    <link rel="stylesheet" href="css/m-video-option.css">
     <link rel="stylesheet" href="css/v-layout.css">
     <!--<script src="js/vendor/modernizr-2.8.3.min.js"></script>-->
   </head>
-  <body>
-    <header></header>
+  <body class="page-bkg__happy">
+    <header class="m-header">
+      <h1 class="m-header-h1">I'm feeling happy!</h1>
+      <nav class="m-nav">
+        <ul class="m-nav-list">
+          <li class="m-nav-list--item">
+            <a href="v-index.html" class="m-nav-list--link">Home</a>
+          </li>
+          <li class="m-nav-list--item">
+            <a href="v-mood.html" class="m-nav-list--link">My Mood</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
 
-    <audio autoplay controls preload="auto" src="aud/Lovely_Day.m4a"></audio>
+    <section class="m-audio-player">
+      <audio autoplay controls preload="auto" src="aud/Lovely_Day.m4a"></audio>
+    </section>
+
+    <section class="m-video-option">
+
+      <form action="v-happy-video.html" method="post">
+        <label>Would you rather watch the video instead?<label>
+        <label for="happy-video-submit">Yes, please!</label>
+        <input type="submit" id="happy-video-submit"></input>
+      </form>
+    </section>
 
 
 
